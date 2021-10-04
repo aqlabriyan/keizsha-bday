@@ -252,14 +252,7 @@ const animationTimeline = () => {
       zIndex: "-1",
     })
     .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
-    .to(
-      ".last-smile",
-      0.5,
-      {
-        rotation: 90,
-      },
-      "+=1"
-    );
+    .to(".idea-1", 0.5, ideaTextTransLeave, "+=1.5");
 
   // tl.seek("currentStep");
   // tl.timeScale(2);
