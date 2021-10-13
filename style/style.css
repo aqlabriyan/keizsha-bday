@@ -2,6 +2,24 @@ html {
   box-sizing: border-box;
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.responsive-image {
+  background-image: url(../img/dg.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
@@ -39,6 +57,8 @@ body {
 
 .one {
   font-size: 4.5rem;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .one > img {
@@ -49,12 +69,16 @@ body {
 }
 
 .two {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: lighter;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .three {
   font-size: 3rem;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .four .text-box {
@@ -69,10 +93,14 @@ body {
 .text-box p {
   margin: 0;
   text-align: left;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .text-box span {
   visibility: hidden;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .text-box .fake-btn {
@@ -90,44 +118,48 @@ body {
   position: absolute;
   left: 0;
   right: 0;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .idea-3 strong {
   padding: 3px 5px;
   border-radius: 3px;
   display: inline-block;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .five .idea-5 {
   font-size: 4rem;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .idea-5 span,
 .idea-6 span,
 .wish-hbd span {
   display: inline-block;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .idea-6 span {
   font-size: 15rem;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .six {
   position: relative;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .six img {
   display: inline-block;
   max-width: 100%;
   height: auto;
-}
-
-.six .hat {
-  position: absolute;
-  width: 80px;
-  top: -35px;
-  left: 41.5%;
-  /* transform: scale(0.1); */
 }
 
 .baloons img {
@@ -214,17 +246,23 @@ body {
   font-size: 3em;
   margin: 0;
   text-transform: uppercase;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .wish h5 {
   font-weight: lighter;
   font-size: 2rem;
   margin: 10px 0 0;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .nine p {
   font-size: 2rem;
   font-weight: lighter;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 #replay {
